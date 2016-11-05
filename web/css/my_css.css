@@ -1,0 +1,188 @@
+﻿/*MY CSS RULES */
+
+
+.register_labels { /*gia th forma sto sign_up*/
+	text-align:left;
+	margin-left:10px;
+}
+
+
+.my_legend { /*gia to sing up to legend sth forma*/
+  display: inherit;
+  padding: 0;
+  /*margin-bottom: 40px;*/
+  font-size: 16px;
+  line-height: 36px;
+  color: #333333;
+  /*border-bottom: 1px solid #e5e5e5;*/
+  
+}
+
+#my_select_option { /*gia th forma sto sign up*/
+	font-style: normal;
+}
+
+.my_border_style { /*gia to border style tou create account kai tou login*/
+	margin-left: 0;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+  
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	border-bottom-right-radius: 7px;
+
+
+	-webkit-border-top-left-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-top-left-radius: 7px;
+  
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+
+
+#image_buttons_admin {
+	float:left;
+	width:50%;
+	margin-left:25%;
+}
+
+
+.my_table_headers {
+	font-weight: bold;
+}
+
+#my_vertical_align_box {
+display:inline-block;
+/*border: 2px black solid;*/
+text-align: center;
+	margin-top:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.question {
+	position: absolute;
+	display: inline;
+	text-align: center;
+	width: 174px;
+	height: 78px;
+	font-size: 13px;
+	line-height: 1.5em;
+	background: url('../img/bubble.png') left top no-repeat;
+	padding: 10px 0 0 0;
+	text-shadow: 0px 1px 0px #fff;
+	margin-left: -7em;
+	margin-top: -6em;
+	opacity: 0;
+}
+
+
+.popup {
+	margin-top: .5em;
+	margin-right: .5em;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+
+
+.my_back_button {
+	float:right;
+	margin-right: 100px;
+	/*margin-left:40%;*/
+}
+
+
+
+
+
+#my_change_role_form {
+	display: none;
+	}
+
+/*
+#my_cancel_change_role {
+	margin:0px;
+	font-weight:normal;
+	font-family: font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+*/
+
+#my_error_change_role {
+	clear:both;
+	display:none;
+}
+
+
+
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+
+
+
+.input_success {
+	
+	color: #2ba949;
+	margin-left: 15px;
+}
+
+.input_failure {
+	
+	color: #dd1f26;
+	margin-left: 15px;
+}
+
+#terms:link {
+	background-color:inherit;
+	color: rgb(221, 72, 20);
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom:6px;
+	vertical-align: middle;
+}
+
+
+#terms:visited {
+	background-color:inherit;
+	color: rgb(221, 72, 20);
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom:6px;
+	vertical-align: middle;
+}
+
+#terms:hover   {color: #97310e; text-decoration: underline;}
+#terms:active  {color: #97310e; text-decoration: underline;}  
+
+
+.back_link:visited {text-decoration: none;}
+.back_link:hover   {text-decoration: none;}
+.back_link:active  {text-decoration: none;}
+/*----------end--------------*/
+
+
+.disabled_input_class {
+	border-width:1px;
+	border-color:#43C4EF;
+	box-shadow:0px 1px 4px 1px grey;
+}
+
+.font_change_class {
+	font-weight: bold;
+}
